@@ -1,13 +1,15 @@
-import "./styles.css";
-
+import "./app.css";
+import Navbar from "./Navbar";
+import Heropage from "./Heropage";
 function App() {
-  const title = "Pets";
-
   return (
     <div className="App">
-      <h1>{title}</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <Navbar />
+      <div className="heropage">
+        <Heropage />
+      </div>
     </div>
   );
 }
+
 export default App;

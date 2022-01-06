@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap");
+.App {
+  margin: 0;
+  font-family: "Hind Siliguri", sans-serif;
+  text-align: center;
+  color: #333;
+}
+
+/* Navabar */
+.navbar {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.navbar h1 {
+  color: orangered;
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: orangered;
+}
+
+.heropage {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 20px;
+}
