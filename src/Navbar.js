@@ -1,3 +1,4 @@
+import React from "react";
 import { ReactComponent as PetsPaw } from "./pets_paw.svg";
 
 const Navbar = () => {
@@ -7,12 +8,13 @@ const Navbar = () => {
         Pets
         <PetsPaw />
       </h1>
-      <div className="links">
-        {/* <img src="https://img.icons8.com/color/48/000000/dog-collar.png" /> */}
+      {/* <div className="links">
         <a href="/profile">Profile</a>
         <a href="/Vet">Doctor Saab</a>
         <a href="/food">Food Dada</a>
-      </div>
+      </div> */}
+
+      <button type="submit">Sign in</button>
     </nav>
   );
 };
