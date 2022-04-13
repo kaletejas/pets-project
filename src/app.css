@@ -5,6 +5,7 @@
   /* text-align: center; */
   color: #333;
   background-color: whitesmoke;
+
   /* seashell, powderblue  ,rgb(191, 222, 226)*/
 }
 
@@ -47,7 +48,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(247, 169, 53);
+  background-color: rgb(255, 165, 0);
 }
 
 /* HeroPage */
@@ -96,4 +97,59 @@ button:hover {
   width: 300px;
   height: 250px;
   margin: auto;
+}
+
+/* Form*/
+
+.proform {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 35em;
+  height: auto;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: rgb(250, 190, 130);
+  border-radius: 1em;
+}
+
+label {
+  padding: 10px;
+
+  max-width: 300px;
+}
+input {
+  max-width: 300px;
+  padding: 3px;
+
+  font-size: 15px;
+  margin: 3px;
+}
+select {
+  max-width: 200px;
+  padding: 3px;
+  font-size: 15px;
+}
+
+.cal {
+  width: 500px;
+}
+.cal .button {
+  color: rgb(247, 169, 53);
+}
+.card-flex {
+  display: flex;
+}
+.card {
+  box-sizing: border-box;
+  width: 280px;
+  padding: 20px;
+  border: 3px ridge paleturquoise;
+}
+
+.profile-nav {
+  font-weight: bold;
+  background-color: paleturquoise;
+  border-radius: 1em;
+  max-width: 110px;
 }

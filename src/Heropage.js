@@ -1,11 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { ReactComponent as HeroImage1 } from "./pets_nature_fun.svg";
 import { ReactComponent as HeroImage2 } from "./dog_walking.svg";
 import { ReactComponent as HeroImage3 } from "./good_dog.svg";
 import { ReactComponent as HeroImage4 } from "./dog_walking3.svg";
 import { ReactComponent as HeroImage5 } from "./pet_calendar.svg";
-
+import { ReactComponent as HeroImage6 } from "./pets_med.svg";
 const Heropage = () => {
   // const title = "Pet Parenting made cool..";
   return (
@@ -34,8 +32,19 @@ const Heropage = () => {
         </div>
         <HeroImage5 className="heroimage-33" />
         <a href="/Profile">
-        <button>Petfolio</button>
+          <button>Petfolio</button>
         </a>
+      </div>
+
+      <div className="heropage-50">
+        <HeroImage6 className="heroimage-50" />
+        <div className="flex-50">
+          <p>Veterinarians are most trusted by Pet Parents</p>
+          <p>Login here as a Doctor and guides the Pets to Healthy Lifestyle</p>
+          <a href="/Doctor">
+            <button>Doc's Clinic</button>
+          </a>
+        </div>
       </div>
     </>
   );

@@ -15,7 +15,10 @@ function App() {
             <Route exact path="/">
               <Heropage />
             </Route>
-            <Route path="/Profile">
+            <Route exact path="/Profile">
+              <Profile />
+            </Route>
+            <Route exact path="/Doctor">
               <Profile />
             </Route>
           </Switch>
